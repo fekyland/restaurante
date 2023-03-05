@@ -13,30 +13,78 @@
     <title>HONGUS POCUS</title>
 </head>
 <body>
-        <div class="contenedor">
-            <div class="logo">Restaurante hongus pocus</div>
-            <div class="menu">
-              <div class="cajaMenu1"><a href="https://fekyland.github.io/restaurante/index.html">home</a></div>
-              <div class="cajaMenu1"><a href="https://fekyland.github.io/restaurante/menu.html">menu</a></div>
-              <div class="cajaMenu1"><a href="https://fekyland.github.io/restaurante/contacto.html">contacto</a></div>
-            </div>
-            <div class="contenidoCentral">
-                <section class="estiloFormulario">
-                    <form>
-                        <label for="nombreCompleto">Nombre completo:</label>
-                        <input type="text" name="nombreCompleto" id="nombreCompleto"> <br> </br>
-                        <label for="direccionDecorreo">Correo electronico</label>
-                        <input type="text" name="direccionDecorreo" id="direcconDecorreo"><br> </br>
-                        <label for="consulta">consulta</label><br></br>
-                        <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea> <br> <br>
-                        <input type="button" value="enviar">
-                    </form>
-                </section>
-            </div>
-          
+    <div class="containe-fluid">
+      <nav class="navbar navbar-expand-lg z-1 position-absolute">
+        <a class="navbar-brand" href="#">Hongus Pocus</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="https://fekyland.github.io/restaurante/index.html"
+              >
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://fekyland.github.io/restaurante/menu.html"
+              >
+                Carta
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://fekyland.github.io/restaurante/contacto.html"
+              >
+                Contacto
+              </a>
+            </li>
+          </ul>
         </div>
-        
-</body>
+      </nav>
+      <div class="d-flex align-items-center p-2">
+        <div
+          class="d-flex justify-content-center z-3 position-absolute p-5 rounded-3 bg-light"
+          style="opacity: 0.8;"
+        >
+          <div class="d-flex flex-column mb-3 align-items-center text-dark p-2">
+            <div class="p-2"><h1>SOBRE NOSOTROS</h1></div>
+            <div class="p-2">
+              <p>
+                Somos una familia que se dedica a criar y recolectar hongos
+                desde 6 generaciones desde el siglo 19. la familia giacomo se
+                dedica a este hobby donde se mezcla la aventura y la
+                gastronomia, muchos platos son ingenios de abuelos tatarabuelos
+                donde el hongo era una parte importante de la vida diaria esta
+                region en especial se dedico mucho a esa actividad buscando
+                trufa, hongos de pino entre otros, obteniendo asi como tambien
+                centros de cultivo de hongos paris, portobelo y ostras. sean
+                bienvenidos a este regalo de la tierra os desea la familia
+                giacomo.
+              </p>
+            </div>
+            <div class="p-2">Flex item 3</div>
+          </div>
+        </div>
+        <img class="img-fluid" src="./img/pexels-pixabay-262978.jpg" />
+      </div>
+    </div>
+  </body>
 </html>
                
                
