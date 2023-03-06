@@ -33,3 +33,14 @@ body {
 
   font-size: 30px;
 }
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 166, 0);
+ 
+}
+
+.navbar-brand {
+  font-family: 'Mynerve', cursive;
+ 
+}
